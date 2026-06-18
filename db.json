@@ -1,0 +1,72 @@
+{
+  "budget": {
+    "income": 60000,
+    "savingsGoal": 15000
+  },
+  "personalExpenses": [
+    {
+      "id": "p1",
+      "title": "Grocery Shopping",
+      "amount": 2500,
+      "category": "Food",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "p2",
+      "title": "Metro Transport Card",
+      "amount": 800,
+      "category": "Transport",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "p3",
+      "title": "Uniqlo Summer Tee",
+      "amount": 1999,
+      "category": "Shopping",
+      "date": "2026-06-16"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g1",
+      "name": "PG Friends Room 303",
+      "members": [
+        "You",
+        "Ayush",
+        "Vikram",
+        "Rohan"
+      ],
+      "expenses": [
+        {
+          "id": "e1",
+          "description": "Highspeed Fiber Wifi",
+          "amount": 1200,
+          "paidBy": "Ayush",
+          "splitType": "equal",
+          "splits": {
+            "You": 300,
+            "Ayush": 300,
+            "Vikram": 300,
+            "Rohan": 300
+          },
+          "date": "2026-06-10"
+        },
+        {
+          "id": "e2",
+          "description": "Pizza Party",
+          "amount": 1600,
+          "paidBy": "You",
+          "splitType": "equal",
+          "splits": {
+            "You": 400,
+            "Ayush": 400,
+            "Vikram": 400,
+            "Rohan": 400
+          },
+          "date": "2026-06-14",
+          "syncedPersonalExpenseId": "pe-sync-e2"
+        }
+      ]
+    }
+  ]
+}

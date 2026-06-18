@@ -1,0 +1,6 @@
+{
+  "name": "SmartSplit + Budget Tracker",
+  "description": "A smart personal finance and group expense splitter with automatic sync features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
